@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: pink;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            color: white;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .shop-link {
+            background: white;
+            color: black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .footer-text {
+            text-align: right;
+            font-size: 10px;
+            font-family: 'Courier New', monospace;
+            font-style: italic;
+            margin: 20px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Basics!</h1>
+
+        <div class="gallery">
+            <div class="card">
+                <img src="https://i.ebayimg.com/images/g/CfIAAOSwr2FjiBH3/s-l1600.webp" alt="Product 1">
+                <a href="https://www.ebay.com/itm/334648647397">
+                    <div class="shop-link">Shop1</div>
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="https://i.ebayimg.com/images/g/pYQAAOSwpAVnfm79/s-l1600.webp" alt="Product 2">
+                <a href="https://www.ebay.com/itm/396104658277">
+                    <div class="shop-link">Shop2</div>
+                </a>
+            </div>
+        </div>
+
+        <hr>
+        <p class="footer-text">© cchaiyat 2025</p>
+    </div>
+</body>
+
+</html>
